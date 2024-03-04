@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Store</title>
+</head>
+<body>
+    <!--Меню СУКА-->
+    <ul class="fix">
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Genres ▼</a>
+            <ul class="dropdown">
+                <li><a href="#firstbook">Detective</a></li>
+                <li><a href="#secondbook">Novel </a></li>
+                <li><a href="#thirsdbook">Fantasy</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Poems</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About US</a></li>
+        <li><a href="#">Cart</a></li>
+    </ul>
+    <!--Кінець меню СУКА-->
+    
+    <div class="topbg">
+        <h1>Welcome to the book store!</h1>
+    </div>
+    <!--задній фон, кароче картинка з книжками-->
+    <!--перша книга-->
+    <div class="mainbg">
+        <div class="firstBook" id="firstbook">
+            <img src="firstbook.jpg" alt="'Чалий кінь' Агата Крісті">
+            <div >
+                <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Чалий кінь</h2><br>
+                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">За дивних обставин убито <mark class="mark-style">католицького священика</mark>. Найвагомішу зачіпку знаходять в черевику пастора. Це папірець із кількома прізвищами, без жодних коментарів чи пояснень. Та невдовзі поліція встановлює, що багато імен з цього переліку вже згадані в некрологах. Раптово з’являється свідок, який бачив убивцю священика. Але підозрюваний виявляється калікою. Тим часом серед людей ширяться чутки про трьох спадкових відьом з котеджу «Чалий кінь», що здатні насилати смерть. Та як це стосується вбивства священика? Кримінальному інспекторові Лежену й історикові Марку Істербруку належить з’ясувати, що або хто стоїть за всіма цими химерними подіями.</p>
+                <h2><s>350$</s></h2>
+                <h1 style="color:  #d42d1a;"><b>250$</b></h1>
+                <button >Add to Cart</button>            
+            </div>
+        </div>
+
+        <!--друга книга -->
+        <div class="firstBook" id="secondbook">
+            <img src="secondbook.jpg" alt="'Чалий кінь' Агата Крісті">
+            <div class="inform">
+                <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Покинь, якщо кохаєш...</h2><br>
+                <p><blockquote style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">"<mark class="mark-style">Життя</mark> - дивна штука. Нам дається так багато років, щоб його прожити, тож слід намагатися зробити їх якомога насиченішим..."</blockquote></p>
+                <h2><s>350$</s></h2>
+                <h1 style="color:  #d42d1a;"><b>250$</b></h1>
+                <button >Add to Cart</button>
+            </div>
+        </div>
+        <!--третя книга -->
+        <div class="firstBook" id="thirsdbook">
+            <img src="thirsdbook.jpg" alt="'Математична статистика' Володимир Руденко">
+            <div>
+                <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Математична статистика</h2><br>
+                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Розкриваються основи теорії ймовірностей та математичної статистики: предмет, методи, базові категорії, показники тенденцій і мінливості сукупностей, статистичне оцінювання, перевірка статистичних гіпотез з використанням параметричних і непараметричних критеріїв, кореляційний, регресійний, дисперсійний аналіз. Розглядаються технологічні прийоми і способи комп'ютерної реалізації статистичної обробки даних на базі табличного процесора MS Excel<sub>prog</sub>, організація діалогового інтерфейсу. Пропонується матеріал для самостійної підготовки (лабораторно-практичні та тестові завдання). Приклади супроводжуються розрахунками, графічним ілюстративним матеріалом.</p>
+                <h2><s>246$</s></h2>
+                <h1 style="color:  #d42d1a;"><b>192$</b></h1>
+                <button >Add to Cart</button>
+            </div>
+        </div>
+
+        <!--таблиця наявноті товару-->
+        <div><table class="tableam">
+            
+            <caption class="table-edit">Таблиця наявності книг</caption>
+            <tr>
+                <th>Назва книги</th>
+                <th>Жанр</th>
+                <th>Кількість</th>
+            </tr>
+            <tr>
+                <td>'Чалий кінь'</td>
+                <td>Детектив</td>
+                <td>120</td>
+
+            </tr>
+            <tr>
+                <td>'Покинь, якщо кохаєш...'</td>
+                <td>Новела</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>'Математична статистика'</td>
+                <td>Фентезі</td>
+                <td>15</td>
+
+            </tr>
+            <tr>
+                <td>'Чалий кінь'</td>
+                <td>Жахи</td>
+                <td>90</td>
+
+            </tr>
+            <tr>
+                <td>'Чалий кінь'</td>
+                <td>Романтика</td>
+                <td>123</td>
+
+            </tr>
+            <tr>
+                <td>'Чалий кінь'</td>
+                <td>Прози</td>
+                <td>54</td>
+
+            </tr>
+        </table>
+    </div>
+
+    <!--музика для читання-->
+    <div class="music-block">
+        
+        <h2>Музика для читання</h2>
+        <br>
+        <p class="edit">Travel</p>
+        
+        <audio controls autoplay muted class="music">
+             <source src="forstudy.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <p class="edit">This is for You</p>
+        
+        <audio controls autoplay muted class="music">
+            <source src="forstudy2.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <p class="edit">Moonlight</p>
+        
+        <audio controls autoplay muted class="music">
+            <source src="forstudy3.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+
+    </div>
+    <!--коментарі-->
+    <div class="mainbg">
+        <!-- <h2>Коментарі</h2><br><br> -->
+
+        <!--додати коментар-->
+        <h2>Додайте свій коментар</h2><br>
+        <p class="edit">Введіть ваше ім'я</p><input type="text"><br>
+        <p class="edit">Введіть дату народження</p><input type="date"><br>
+        <p class="edit">Введіть вашу електрону пошту</p><input type="email"><br>
+        <p class="edit">Ваш коментар</p><textarea name="content" cols="30" rows="10" class="dinamic"></textarea><br><br><br>
+
+        <!--Коментарі інших користувачів-->
+        <h2>Коментарі користувачів</h2>
+        <svg width="50" height="50">
+            <polygon points="25,5 10,45 35,20 5,20 30,50"
+            style="fill:rgb(255, 255, 255);stroke:#d42d1a;stroke-width:2;fill-rule:evenodd;" />
+          </svg>
+        <!--перший комент-->
+        <div class="comm-item">
+            <div class="comm-info-user">
+                <div class="comm-info-user-photo">
+                    <img src="user.jpg" alt="CatLover">
+                    <div class="comm-info-user-name">
+                        <h4><u>CatLover</u></h4>
+                        <div class="comm-info-user-date"><time>12-01-2024 12:04</time></div>
+                    </div>
+                </div>
+            </div>
+            <div class="comm-item-user">
+                Прочитала всі книги, дуже вдячна!
+                <br>
+                Сподіваюся всім вони зайдуть!!!
+            </div>
+        </div>
+        <!--другий комент-->
+        <div class="comm-item">
+            <div class="comm-info-user">
+                <div class="comm-info-user-photo">
+                    <img src="user2.jpg" alt="Aishawify">
+                    <div class="comm-info-user-name">
+                        <h4><u>Aishawify</u></h4>
+                        <div class="comm-info-user-date"><time>12-01-2024 12:04</time></div>
+                    </div>
+                </div>
+            </div>
+            <div class="comm-item-user">
+                Непогані книги, чекаю, коди до асортементу додадуть ще книг.
+            </div>
+        </div>
+        <!--третій комент-->
+        <div class="comm-item">
+            <div class="comm-info-user">
+                <div class="comm-info-user-photo">
+                    <img src="user3.jpg" alt="BoberKurva">
+                    <div class="comm-info-user-name">
+                        <h4><u>BoberKurva</u></h4>
+                        <div class="comm-info-user-date"><time>12-01-2024 12:04</time></div>
+                    </div>
+                </div>
+            </div>
+            <div class="comm-item-user">
+                Велика різноманітність жанрів та легкість навігації роблять кожен візит на сайт книжкового магазину цікавим та захоплюючим. Додаткові сервіси, такі як рецензії та рекомендації, допомагають зробити свій вибір швидко та обдумано.
+            </div>
+        </div>
+        <!--четвертий комент-->
+        <div class="comm-item">
+            <div class="comm-info-user">
+                <div class="comm-info-user-photo">
+                    <img src="user4.jpg" alt="Suzenny">
+                    <div class="comm-info-user-name">
+                        <h4><u>Suzenny</u></h4>
+                        <div class="comm-info-user-date"><time>12-01-2024 12:04</time></div>
+                    </div>
+                </div>
+            </div>
+            <div class="comm-item-user">
+                Швидка доставка та якісна упаковка - ось що робить цей книжковий магазин винятковим! Кожна книга приходить в ідеальному стані, а пунктуальність служби доставки дозволяє отримати замовлення швидко та без зайвого чекання.
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
